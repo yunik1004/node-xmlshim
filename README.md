@@ -1,7 +1,7 @@
 Node XML Shim
 =============
 
-[![Build Status](https://secure.travis-ci.org/znerol/node-xmlshim.svg?branch=master)](http://travis-ci.org/znerol/node-xmlshim)
+[![Build Status](https://secure.travis-ci.org/yunik1004/node-xmlshim.svg?branch=master)](http://travis-ci.org/yunik1004/node-xmlshim)
 
 This project brings the ``DOMParser``[1] and ``XMLSerializer``[2] objects known
 from the browser to node.js. Additionally functions from
@@ -16,7 +16,7 @@ Branches:
 
 * *0.x*: Compatible with node versions supported by jsdom 0.11.x
 * *1.x*: Compatible with node versions supported by jsdom 3.x (0.10, 0.12)
-* *2.x*: Compatible with node versions supported by jsdom >= 3.x (iojs)
+* *2.x*: Compatible with node versions supported by jsdom >= 3.x (4, 6, 8)
 
 Note that jsdom >= 1.0 does not support CDATA sections. Hence xmlshim >= 1.x
 will fail to parse/write any CDATA sections.

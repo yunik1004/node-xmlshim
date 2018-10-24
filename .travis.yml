@@ -2,12 +2,16 @@ language: node_js
 
 env:
   - CXX=g++-4.8
+os:
+  - linux
+  - osx
 
 node_js:
-  - iojs-2
-  - iojs-3
-  - 4
-  - 5
+#  - 4
+#  - 6
+  - 8
+  - 9
+  - 10
 
 addons:
   apt:
