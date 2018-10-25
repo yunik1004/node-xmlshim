@@ -19,12 +19,15 @@
     "name": "Lorenz Schori",
     "email": "lo+xmlshim@znerol.ch"
   },
+  "contributors": [
+    "yunik1004"
+  ],
   "bugs": {
-    "url": "https://github.com/znerol/node-xmlshim/issues"
+    "url": "https://github.com/yunik1004/node-xmlshim/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:znerol/node-xmlshim.git"
+    "url": "git@github.com:yunik1004/node-xmlshim.git"
   },
   "dependencies": {
     "jsdom": "^6.5.1",

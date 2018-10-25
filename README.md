@@ -3,6 +3,12 @@ Node XML Shim
 
 [![Build Status](https://secure.travis-ci.org/yunik1004/node-xmlshim.svg?branch=master)](http://travis-ci.org/yunik1004/node-xmlshim)
 
+> This is the updated version of znerol/node-xmlshim.
+
+Main branch of this project is 'master'.
+
+## Intro
+
 This project brings the ``DOMParser``[1] and ``XMLSerializer``[2] objects known
 from the browser to node.js. Additionally functions from
 ``document.implementation``, most importantly ``createDocument``[3] are exposed
